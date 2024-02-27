@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.87.0](https://github.com/Snowflake-Labs/terraform-provider-snowflake/compare/v0.86.0...v0.87.0) (2024-02-27)
+
+
+### 🎉 **What's new:**
+
+* Add network rule to the sdk ([#2526](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2526)) ([b379565](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/b379565de39a00d3863f22351806f87cdd920066))
+* supports collation of table column ([#2496](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2496)) ([56771f1](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/56771f188841a37202827eee73ab412a633ef3e4))
+
+
+### 🔧 **Misc**
+
+* Clean up environment variables in tests and on CI ([#2543](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2543)) ([9a10cb1](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/9a10cb1211940dfd7339d842a91d3a8f790e947f))
+* replace warning in new grant resources with info log ([#2521](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2521)) ([c3014b9](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/c3014b93c24146f3abbd9583a1eca5c94081b80f))
+
+
+### 🐛 **Bug fixes:**
+
+* data retention time parameters ([#2502](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2502)) ([76abf21](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/76abf217c519ca116ad8ab10d9947eaca3eb015b))
+* Fix ACCOUNT PARAMETERS option failover group resource ([#2522](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2522)) ([61883f3](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/61883f3ee23f5aaeba065a75d0375fd8c69e2b4a)), closes [#2517](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2517)
+* Fix few tests ([#2515](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2515)) ([a523a6b](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/a523a6b30f73165a2b51f7c88b8d6701ea19f0f9))
+* Fix provider config hierarchy ([#2551](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2551)) ([677a12b](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/677a12b6587ce72fc3eb18de44a8f99a403d9502))
+* Fix query_results in unsafe_execute resource ([#2512](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2512)) ([94ca158](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/94ca158966785f4eb50d224a4231231f5aa8f24c)), closes [#2491](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2491)
+* Fix replication for database resource ([#2524](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2524)) ([767fbce](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/767fbce50fa3412a7b964fefae114a18d9fdaae2)), closes [#2021](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2021)
+* Fix show by id for external functions ([#2531](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2531)) ([d910a84](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/d910a84a7d829d14e414757a1732c934937e559e)), closes [#2528](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2528)
+* Fix various small problems ([#2552](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2552)) ([f558ce6](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/f558ce65e501e77fa95b26c56a1e261e2811e4c4))
+* Granting database roles ([#2511](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2511)) ([dc27d64](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/dc27d644c15a0d2321d9f374f73a9df239c6a972)), closes [#2402](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2402)
+* Handle old reference for table_id in table constraint resource ([#2558](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2558)) ([d1e8912](https://github.com/Snowflake-Labs/terraform-provider-snowflake/commit/d1e891267c055b0a00246d5098787f3d21e807cb)), closes [#2535](https://github.com/Snowflake-Labs/terraform-provider-snowflake/issues/2535)
+
 ## [0.86.0](https://github.com/Snowflake-Labs/terraform-provider-snowflake/compare/v0.85.0...v0.86.0) (2024-02-15)
 
 
